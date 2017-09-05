@@ -1,0 +1,35 @@
+body{
+	background: url('imagens/fundo.png');
+	background-size: cover;
+	background-repeat: center;
+	font-family: 'lato', sans-serif;
+	background-position: center;
+}
+div{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+ul{	
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+ul li{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+h1, h2{
+	color:white;
+	text-transform: uppercase;
+}
+h1{
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+h2{
+	font-size: 20px;
+}
